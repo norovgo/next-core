@@ -1,5 +1,6 @@
 import { dbClient } from "@/shared/lib/db";
 import { cache } from "react";
+import { TCourseListElement, TCreateCourseListElementCommand, TDeleteCourseListElementCommand } from "./model/types";
 
 class CoursesRepository {
   getCoursesList = cache(

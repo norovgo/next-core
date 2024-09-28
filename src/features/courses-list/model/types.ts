@@ -1,14 +1,14 @@
-type TCourseListElement = {
+export type TCourseListElement = {
   id: string;
   name: string;
   description: string;
 };
 
-type TCreateCourseListElementCommand = {
+export type TCreateCourseListElementCommand = {
   name: string;
   description: string;
 };
 
-type TDeleteCourseListElementCommand = {
+export type TDeleteCourseListElementCommand = {
   id: string;
 };

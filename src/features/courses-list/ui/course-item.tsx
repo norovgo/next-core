@@ -2,6 +2,7 @@
 import { Button } from "@/shared/ui/button";
 import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/shared/ui/card";
 import { useTransition } from "react";
+import { TCourseListElement } from "../model/types";
 
 export function CourseItem({
     course,
